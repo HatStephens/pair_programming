@@ -10,7 +10,7 @@ b=1
 while b<28 do
   `say #{names[a.to_i]} pair with #{names[b.to_i]}`
   puts "#{names[a.to_i]} pair with #{names[b.to_i]}"
-  sleep 0
+  sleep 2
   a += 2
   b += 2
 end
